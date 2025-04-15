@@ -1,7 +1,10 @@
-```markdown
+````markdown
 # ⚡ React Router + TailwindCSS + shadcn/ui (canary) Starter Template
 
-A modern React starter template powered by **React Router v7 (Framework Mode)**, **TailwindCSS v4**, and the bleeding-edge **shadcn/ui@canary** components. Ideal for quickly bootstrapping full-featured, aesthetically pleasing, and accessible web apps.
+A modern React starter template powered by **React Router v7 (Framework Mode)**,
+**TailwindCSS v4**, and the bleeding-edge **shadcn/ui@canary** components. Ideal
+for quickly bootstrapping full-featured, aesthetically pleasing, and accessible
+web apps.
 
 ---
 
@@ -9,7 +12,8 @@ A modern React starter template powered by **React Router v7 (Framework Mode)**,
 
 - ⚛️ **React Router Framework Mode** – built-in file-based routing
 - 🎨 **TailwindCSS** – utility-first styling with full customization
-- 🧩 **shadcn/ui (canary)** – prebuilt, accessible, and customizable UI components
+- 🧩 **shadcn/ui (canary)** – prebuilt, accessible, and customizable UI
+  components
 - ⚡ **Vite** – blazing fast dev experience
 - 🧱 **Project Structure** – opinionated layout with scalability in mind
 
@@ -17,7 +21,8 @@ A modern React starter template powered by **React Router v7 (Framework Mode)**,
 
 ## 📦 Tech Stack
 
-- [React Router](https://reactrouter.com/en/main/start/tutorial) (Framework Mode)
+- [React Router](https://reactrouter.com/en/main/start/tutorial) (Framework
+  Mode)
 - [TailwindCSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/docs/installation/canary)
 - [Vite](https://vitejs.dev/)
@@ -32,6 +37,7 @@ cd my-app
 npm install
 npm run dev
 ```
+````
 
 ---
 
@@ -62,6 +68,7 @@ npx shadcn-ui@canary init
 ```
 
 Choose:
+
 - Framework: `react`
 - TypeScript: `yes`
 - Tailwind: `yes`
@@ -76,7 +83,8 @@ npx shadcn-ui@canary add button
 
 ### 2. Tailwind Configuration
 
-Ensure `tailwind.config.ts` is properly configured to scan your `app`, `components`, and `lib` directories.
+Ensure `tailwind.config.ts` is properly configured to scan your `app`,
+`components`, and `lib` directories.
 
 ```ts
 content: [
@@ -90,11 +98,11 @@ content: [
 
 ## 🧪 Scripts
 
-| Command         | Description               |
-|----------------|---------------------------|
-| `npm run dev`  | Start dev server          |
-| `npm run build`| Build for production      |
-| `npm run preview` | Preview prod build     |
+| Command           | Description          |
+| ----------------- | -------------------- |
+| `npm run dev`     | Start dev server     |
+| `npm run build`   | Build for production |
+| `npm run preview` | Preview prod build   |
 
 ---
 
@@ -114,8 +122,10 @@ MIT — free to use and modify.
 ---
 
 Happy hacking! 💻✨
+
 ```
 
 ---
 
 Let me know if you want to include a badge section (e.g. Netlify deploy, GitHub Actions), an example page screenshot, or a live demo link!
+```
